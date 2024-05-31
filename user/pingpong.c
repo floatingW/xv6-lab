@@ -22,7 +22,7 @@ main(int argc, char *argv[])
         write(p[1], "b", 1);
 
         read(p[0], buff, 1);
-        printf("%d: received ping\n", getpid());
+        printf("%d: received pong\n", getpid());
         exit(0);
     }
 
