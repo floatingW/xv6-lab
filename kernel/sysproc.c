@@ -105,3 +105,12 @@ sys_trace(void)
   myproc()->tracemask = n;
   return 0;
 }
+
+uint64
+sys_sysinfo(void)
+{
+  int n;
+  argint(0, &n);
+
+  return 0;
+}
